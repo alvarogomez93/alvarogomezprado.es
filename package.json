@@ -9,14 +9,11 @@
     "react-dom": "^16.8.2"
   },
   "devDependencies": {},
-
-
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alvarogomez93/alvarogomezprado.es.git"
