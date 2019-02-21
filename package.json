@@ -4,6 +4,7 @@
   "description": "Home website",
   "main": "index.js",
   "dependencies": {
+    "express": "^4.16.4",
     "next": "^8.0.1",
     "react": "^16.8.2",
     "react-dom": "^16.8.2"

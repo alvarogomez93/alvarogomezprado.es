@@ -1,6 +1,22 @@
 {
   "name": "alvarogomezprado.es",
   "version": 2,
-  "builds": [{ "src": "next.config.js", "use": "@now/next" }],
-  "alias": ["alvarogomezprado.es"]
+  "builds": [
+	{ "src": "next.config.js", "use": "@now/next" },
+	{ "src": "/server/api/create.js", "use": "@now/node" }
+],
+  "routes": [
+	{ "src": "/api/create", "dest": "/server/api/create.js" }
+
+],
+  "alias": ["alvarogomezprado.es"],
+  "env": {
+
+	"DB_USER": "@db_user",
+	"DB_PASSWORD": "@db_password",
+	"DB_HOST": "@db_host",
+	"PORT": "@port"
+
+}
+
 }
