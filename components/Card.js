@@ -12,7 +12,7 @@ const Card = (props) => (
   <style jsx>{`
 
 .card{
-background-color: grey;
+background-color: white;
 
 }
 
