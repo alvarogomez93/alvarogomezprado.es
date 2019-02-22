@@ -7,9 +7,6 @@ const linkStyle = {
 
 const Header = () => (
 
-
-  
-  
     <div>
   <Head>
       <title>λlvaro</title>
@@ -45,6 +42,8 @@ const Header = () => (
 
 	body{
 	background-image: url("/static/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
   .container{
   
