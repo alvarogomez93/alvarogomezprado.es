@@ -7,7 +7,7 @@ import Card from '../components/Card'
 
 
 const Home = () => (
- <div className="container">
+ <div>
   <Layout>
     <Card title='Hello' text='Welcome to my personal page. All this is pretty much still a work in progress'/>
   </Layout>
