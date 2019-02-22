@@ -4,10 +4,13 @@
 
 const Card = (props) => (
   
-  <div className="card container">
+
+  
+  <div className={props.className+" card container"}>
   
   <h1>{props.title}</h1>
-  <p> {props.text}</p> 
+  {props.text}
+  {props.children}
   
   <style jsx>{`
 
